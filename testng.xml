@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/idea/project/auto_api">
+        <classes>
+            <class name="Case.RegisterCase">
+                <methods>
+                    <include name="testRegister"/>
+                </methods>
+            </class>
+            <class name="Case.LoginCase">
+                <methods>
+                    <include name="testLogin"/>
+                </methods>
+            </class>
+            <class name="Case.RechargeCase"></class>
+        </classes>
+    </test>
+</suite>

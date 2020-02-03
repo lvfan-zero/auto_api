@@ -1,0 +1,188 @@
+<html>
+<head>
+<title>TestNG:  D:/idea/project/auto_api</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>D:/idea/project/auto_api</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jan 19 23:14:04 CST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13018 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Case.RegisterCase.test()'><b>test</b><br>Test class: Case.RegisterCase<br>Parameters: 1, {"mobilephone":"${toBeRegisterMobilephone}","pwd":"${toBeRegisterPassword}"}, 1, [
+ {
+  "no":"1",
+  "sql":"select count(*) as totalNum from member where mobilephone = '${toBeRegisterMobilephone}'"
+ }
+]</td>
+<td></td>
+<td>4</td>
+<td>Case.RegisterCase@12518c3</td></tr>
+<tr>
+<td title='Case.RegisterCase.test()'><b>test</b><br>Test class: Case.RegisterCase<br>Parameters: 2, {"mobilephone":"${toBeRegisterMobilephone}","pwd":"a1234"}, 1, null</td>
+<td></td>
+<td>0</td>
+<td>Case.RegisterCase@12518c3</td></tr>
+<tr>
+<td title='Case.RegisterCase.test()'><b>test</b><br>Test class: Case.RegisterCase<br>Parameters: 3, {"mobilephone":"188111111","pwd":"${toBeRegisterPassword}"}, 1, null</td>
+<td></td>
+<td>0</td>
+<td>Case.RegisterCase@12518c3</td></tr>
+<tr>
+<td title='Case.RegisterCase.test()'><b>test</b><br>Test class: Case.RegisterCase<br>Parameters: 4, {"mobilephone":"","pwd":"${toBeRegisterPassword}"}, 1, null</td>
+<td></td>
+<td>0</td>
+<td>Case.RegisterCase@12518c3</td></tr>
+<tr>
+<td title='Case.RegisterCase.test()'><b>test</b><br>Test class: Case.RegisterCase<br>Parameters: 5, {"mobilephone":"${toBeRegisterMobilephone}","pwd":""}, 1, null</td>
+<td></td>
+<td>0</td>
+<td>Case.RegisterCase@12518c3</td></tr>
+<tr>
+<td title='Case.RegisterCase.test()'><b>test</b><br>Test class: Case.RegisterCase<br>Parameters: 6, {"mobilephone":"18811111112","pwd":"a123456"}, 1, null</td>
+<td></td>
+<td>0</td>
+<td>Case.RegisterCase@12518c3</td></tr>
+<tr>
+<td title='Case.LoginCase.test()'><b>test</b><br>Test class: Case.LoginCase<br>Parameters: 7, {"mobilephone":"${toBeRegisterMobilephone}","pwd":"${toBeRegisterPassword}"}, 2, null</td>
+<td></td>
+<td>0</td>
+<td>Case.LoginCase@69561c</td></tr>
+<tr>
+<td title='Case.LoginCase.test()'><b>test</b><br>Test class: Case.LoginCase<br>Parameters: 8, {"mobilephone":"18812345671","pwd":"${toBeRegisterPassword}"}, 2, null</td>
+<td></td>
+<td>0</td>
+<td>Case.LoginCase@69561c</td></tr>
+<tr>
+<td title='Case.LoginCase.test()'><b>test</b><br>Test class: Case.LoginCase<br>Parameters: 9, {"mobilephone":"${toBeRegisterMobilephone}","pwd":"123456"}, 2, null</td>
+<td></td>
+<td>0</td>
+<td>Case.LoginCase@69561c</td></tr>
+<tr>
+<td title='Case.LoginCase.test()'><b>test</b><br>Test class: Case.LoginCase<br>Parameters: 10, {"mobilephone":"${toBeRegisterMobilephone}","pwd":""}, 2, null</td>
+<td></td>
+<td>0</td>
+<td>Case.LoginCase@69561c</td></tr>
+<tr>
+<td title='Case.LoginCase.test()'><b>test</b><br>Test class: Case.LoginCase<br>Parameters: 11, {"mobilephone":"","pwd":"${toBeRegisterPassword}"}, 2, null</td>
+<td></td>
+<td>0</td>
+<td>Case.LoginCase@69561c</td></tr>
+<tr>
+<td title='Case.RechargeCase.test()'><b>test</b><br>Test class: Case.RechargeCase<br>Parameters: 12, {"mobilephone":"","amount":"1000"}, 3, null</td>
+<td></td>
+<td>0</td>
+<td>Case.RechargeCase@1aa20b3</td></tr>
+<tr>
+<td title='Case.RechargeCase.test()'><b>test</b><br>Test class: Case.RechargeCase<br>Parameters: 13, {"mobilephone":"${toBeRegisterMobilephone}","amount":""}, 3, null</td>
+<td></td>
+<td>0</td>
+<td>Case.RechargeCase@1aa20b3</td></tr>
+<tr>
+<td title='Case.RechargeCase.test()'><b>test</b><br>Test class: Case.RechargeCase<br>Parameters: 14, {"mobilephone":"1881234111","amount":"1000"}, 3, null</td>
+<td></td>
+<td>0</td>
+<td>Case.RechargeCase@1aa20b3</td></tr>
+<tr>
+<td title='Case.RechargeCase.test()'><b>test</b><br>Test class: Case.RechargeCase<br>Parameters: 15, {"mobilephone":"${toBeRegisterMobilephone}","amount":"测试"}, 3, null</td>
+<td></td>
+<td>0</td>
+<td>Case.RechargeCase@1aa20b3</td></tr>
+<tr>
+<td title='Case.RechargeCase.test()'><b>test</b><br>Test class: Case.RechargeCase<br>Parameters: 16, {"mobilephone":"${toBeRegisterMobilephone}","amount":"-1"}, 3, null</td>
+<td></td>
+<td>0</td>
+<td>Case.RechargeCase@1aa20b3</td></tr>
+<tr>
+<td title='Case.RechargeCase.test()'><b>test</b><br>Test class: Case.RechargeCase<br>Parameters: 17, {"mobilephone":"${toBeRegisterMobilephone}","amount":"5000001"}, 3, null</td>
+<td></td>
+<td>0</td>
+<td>Case.RechargeCase@1aa20b3</td></tr>
+<tr>
+<td title='Case.RechargeCase.test()'><b>test</b><br>Test class: Case.RechargeCase<br>Parameters: 18, {"mobilephone":"${toBeRegisterMobilephone}","amount":"5000.001"}, 3, null</td>
+<td></td>
+<td>0</td>
+<td>Case.RechargeCase@1aa20b3</td></tr>
+<tr>
+<td title='Case.RechargeCase.test()'><b>test</b><br>Test class: Case.RechargeCase<br>Parameters: 19, {"mobilephone":"${toBeRegisterMobilephone}","amount":"5000"}, 3, [
+ {
+  "no":"1",
+  "sql":"select leaveamount from member where mobilephone = '${toBeRegisterMobilephone}'"
+ },
+ {
+  "no":"2",
+  "sql":"select count(*) as totalNum from financelog where IncomeMemberId = (select id from member where mobilephone = '${toBeRegisterMobilephone}')"
+ }
+]</td>
+<td></td>
+<td>3</td>
+<td>Case.RechargeCase@1aa20b3</td></tr>
+</table><p>
+</body>
+</html>

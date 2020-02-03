@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="13018" started-at="2020-01-19T15:14:04Z" finished-at="2020-01-19T15:14:17Z">
+    <groups>
+    </groups>
+    <test name="D:/idea/project/auto_api" duration-ms="13018" started-at="2020-01-19T15:14:04Z" finished-at="2020-01-19T15:14:17Z">
+      <class name="Case.LoginCase">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.LoginCase@69561c]" name="test" duration-ms="315" started-at="2020-01-19T23:14:11Z" data-provider="datas" finished-at="2020-01-19T23:14:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":"${toBeRegisterPassword}"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.LoginCase@69561c]" name="test" duration-ms="293" started-at="2020-01-19T23:14:11Z" data-provider="datas" finished-at="2020-01-19T23:14:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"18812345671","pwd":"${toBeRegisterPassword}"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.LoginCase@69561c]" name="test" duration-ms="271" started-at="2020-01-19T23:14:12Z" data-provider="datas" finished-at="2020-01-19T23:14:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":"123456"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.LoginCase@69561c]" name="test" duration-ms="114" started-at="2020-01-19T23:14:12Z" data-provider="datas" finished-at="2020-01-19T23:14:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":""}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.LoginCase@69561c]" name="test" duration-ms="118" started-at="2020-01-19T23:14:12Z" data-provider="datas" finished-at="2020-01-19T23:14:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"","pwd":"${toBeRegisterPassword}"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Case.LoginCase -->
+      <class name="Case.RegisterCase">
+        <test-method status="PASS" signature="init()[pri:0, instance:Case.RegisterCase@12518c3]" name="init" is-config="true" duration-ms="65" started-at="2020-01-19T23:14:04Z" finished-at="2020-01-19T23:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.RegisterCase@12518c3]" name="test" duration-ms="4827" started-at="2020-01-19T23:14:05Z" data-provider="datas" finished-at="2020-01-19T23:14:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":"${toBeRegisterPassword}"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[
+ {
+  "no":"1",
+  "sql":"select count(*) as totalNum from member where mobilephone = '${toBeRegisterMobilephone}'"
+ }
+]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.RegisterCase@12518c3]" name="test" duration-ms="209" started-at="2020-01-19T23:14:10Z" data-provider="datas" finished-at="2020-01-19T23:14:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":"a1234"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.RegisterCase@12518c3]" name="test" duration-ms="142" started-at="2020-01-19T23:14:10Z" data-provider="datas" finished-at="2020-01-19T23:14:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"188111111","pwd":"${toBeRegisterPassword}"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.RegisterCase@12518c3]" name="test" duration-ms="142" started-at="2020-01-19T23:14:10Z" data-provider="datas" finished-at="2020-01-19T23:14:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"","pwd":"${toBeRegisterPassword}"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.RegisterCase@12518c3]" name="test" duration-ms="149" started-at="2020-01-19T23:14:11Z" data-provider="datas" finished-at="2020-01-19T23:14:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":""}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.RegisterCase@12518c3]" name="test" duration-ms="300" started-at="2020-01-19T23:14:11Z" data-provider="datas" finished-at="2020-01-19T23:14:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"18811111112","pwd":"a123456"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="batchWrite()[pri:0, instance:Case.RegisterCase@12518c3]" name="batchWrite" is-config="true" duration-ms="232" started-at="2020-01-19T23:14:17Z" finished-at="2020-01-19T23:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchWrite -->
+      </class> <!-- Case.RegisterCase -->
+      <class name="Case.RechargeCase">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.RechargeCase@1aa20b3]" name="test" duration-ms="118" started-at="2020-01-19T23:14:12Z" data-provider="datas" finished-at="2020-01-19T23:14:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"","amount":"1000"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.RechargeCase@1aa20b3]" name="test" duration-ms="115" started-at="2020-01-19T23:14:12Z" data-provider="datas" finished-at="2020-01-19T23:14:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","amount":""}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.RechargeCase@1aa20b3]" name="test" duration-ms="130" started-at="2020-01-19T23:14:12Z" data-provider="datas" finished-at="2020-01-19T23:14:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"1881234111","amount":"1000"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.RechargeCase@1aa20b3]" name="test" duration-ms="125" started-at="2020-01-19T23:14:13Z" data-provider="datas" finished-at="2020-01-19T23:14:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","amount":"测试"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.RechargeCase@1aa20b3]" name="test" duration-ms="118" started-at="2020-01-19T23:14:13Z" data-provider="datas" finished-at="2020-01-19T23:14:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","amount":"-1"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.RechargeCase@1aa20b3]" name="test" duration-ms="113" started-at="2020-01-19T23:14:13Z" data-provider="datas" finished-at="2020-01-19T23:14:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","amount":"5000001"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.RechargeCase@1aa20b3]" name="test" duration-ms="110" started-at="2020-01-19T23:14:13Z" data-provider="datas" finished-at="2020-01-19T23:14:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","amount":"5000.001"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Case.RechargeCase@1aa20b3]" name="test" duration-ms="3862" started-at="2020-01-19T23:14:13Z" data-provider="datas" finished-at="2020-01-19T23:14:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","amount":"5000"}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[
+ {
+  "no":"1",
+  "sql":"select leaveamount from member where mobilephone = '${toBeRegisterMobilephone}'"
+ },
+ {
+  "no":"2",
+  "sql":"select count(*) as totalNum from financelog where IncomeMemberId = (select id from member where mobilephone = '${toBeRegisterMobilephone}')"
+ }
+]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Case.RechargeCase -->
+    </test> <!-- D:/idea/project/auto_api -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
